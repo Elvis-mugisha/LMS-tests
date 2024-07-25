@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General Styles */
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-padding: 15px; /* Increased padding */
+    -fx-spacing: 15px; /* Increased spacing */
+    -fx-background-color: #e6ffe6; /* Light green background */
+}
+
+/* TextField Styles */
+.text-field {
+    -fx-font-size: 16px; /* Increased font size */
+    -fx-padding: 12px; /* Increased padding */
+    -fx-border-color: #32cd32; /* Green border */
+    -fx-border-radius: 8px; /* Increased border radius */
+    -fx-background-radius: 8px; /* Increased background radius */
+    -fx-pref-width: 250px; /* Increased preferred width */
+}
+
+/* Button Styles */
+.button {
+    -fx-background-color: #32cd32; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Increased font size */
+    -fx-padding: 12px 24px; /* Increased padding */
+    -fx-background-radius: 8px; /* Increased background radius */
+    -fx-border-radius: 8px; /* Increased border radius */
+}
+
+.button:hover {
+    -fx-background-color: #228b22; /* Darker green background on hover */
+}
+
+/* TableView Styles */
+.table-view {
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 15px; /* Increased padding */
+    -fx-background-color: white;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 8px; /* Increased border radius */
+    -fx-background-radius: 8px; /* Increased background radius */
+    -fx-pref-height: 450px; /* Increased preferred height */
+    x-pref-width: 450px; /* Increased preferred width */
+}
+
+.table-column-header {
+    -fx-background-color: #32cd32; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Increased font size */
+    -fx-padding: 8px; /* Increased padding */
+}
+
+.table-row-cell {
+    -fx-border-color: #d3d3d3;
+    -fx-padding: 8px; /* Increased padding */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #e6ffe6; /* Light green background */
+}
+
+/* HBox and VBox spacing */
+.hbox {
+    -fx-spacing: 15px; /* Increased spacing */
+}
+
+.vbox {
+    -fx-spacing: 15px; /* Increased spacing */
+}

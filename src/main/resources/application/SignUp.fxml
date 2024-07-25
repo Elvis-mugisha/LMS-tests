@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.Controllers.SignUpController"
+            stylesheets="@SignUp.css">
+    <children>
+
+        <Label text="Name:" layoutX="50.0" layoutY="60.0" styleClass="label"/>
+        <TextField fx:id="nameField" layoutX="150.0" layoutY="60.0" styleClass="text-field"/>
+        <Label text="Surname:" layoutX="50.0" layoutY="100.0" styleClass="label"/>
+        <TextField fx:id="surnameField" layoutX="150.0" layoutY="100.0" styleClass="text-field"/>
+        <Label text="Username:" layoutX="50.0" layoutY="140.0" styleClass="label"/>
+        <TextField fx:id="usernameField" layoutX="150.0" layoutY="140.0" styleClass="text-field"/>
+        <Label text="Password:" layoutX="50.0" layoutY="180.0" styleClass="label"/>
+        <PasswordField fx:id="passwordField" layoutX="150.0" layoutY="180.0" promptText="Enter your password" styleClass="text-field"/>
+        <Button text="Sign Up" layoutX="150.0" layoutY="220.0" onAction="#signUp" styleClass="button"/>
+        <Button text="Back to Login" layoutX="150.0" layoutY="260.0" onAction="#backToLogin" styleClass="button"/>
+    </children>
+</AnchorPane>
