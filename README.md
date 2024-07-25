@@ -57,11 +57,11 @@ The Library Management System project is designed to manage books, patrons, and 
 
 2. **Intsall Dependencies**
    ```bash
- mvn clean install
+   mvn clean install
 
 ## Run Test
 
 3. **Run Test**
    ```bash
-mvn test 
+   mvn test
    
