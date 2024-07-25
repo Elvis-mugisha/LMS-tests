@@ -56,12 +56,12 @@ The Library Management System project is designed to manage books, patrons, and 
 ## Install Dependencies
 
 2. **Intsall Dependencies**
-   ```terminal
+   ```bash
  mvn clean install
 
 ## Run Test
 
 3. **Run Test**
-   ```terminal
+   ```bash
 mvn test 
    
