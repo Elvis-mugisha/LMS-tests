@@ -45,7 +45,7 @@ The Library Management System project is designed to manage books, patrons, and 
 
 ## Repository Links
 - **GitHub Repository**: [LMS-tests](https://github.com/Elvis-mugisha/LMS-tests)
-- **Video Recording**: [Loom Video Link](#)
+- **Video Recording**: [Loom Video Link](https://www.loom.com/share/3b6baecc08184266ba0b22301b405012?sid=eb3dd375-00d2-45c5-bc85-266d304f7c7d)
 
 ## Getting Started
 
